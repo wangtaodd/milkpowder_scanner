@@ -16,15 +16,15 @@ name_ch = {"LG0": "蓝罐0段",
 
 
 def rossmannInit(name):
-    rossmann_url = {"LG0": "https://www.rossmann.de/produkte/aptamil/pronutra-pre-anfangsmilch/4008976022350.html",
-                    "LG1": "https://www.rossmann.de/produkte/aptamil/pronutra-anfangsmilch-1/4008976022329.html",
-                    "LG2": "https://www.rossmann.de/produkte/aptamil/pronutra-folgemilch-2/4008976022336.html",
-                    "LG3": "https://www.rossmann.de/produkte/aptamil/pronutra-folgemilch-3/4008976022343.html",
+    rossmann_url = {"LG0": "https://www.rossmann.de/produkte/aptamil/pronutra-advance-pre-anfangsmilch-von-geburt-an/4056631001202.html",
+                    "LG1": "https://www.rossmann.de/produkte/aptamil/pronutra-advance-1-anfangsmilch-von-geburt-an/4056631001226.html",
+                    "LG2": "https://www.rossmann.de/produkte/aptamil/pronutra-advance-2-folgemilch-nach-dem-6-monat/4056631001240.html",
+                    "LG3": "https://www.rossmann.de/produkte/aptamil/pronutra-advance-3-folgemilch-ab-dem-10-monat/4056631001264.html",
                     "ZH1": "https://www.rossmann.de/produkte/aptamil/pronutra-kindermilch-1/4008976022985.html",
                     "ZH2": "https://www.rossmann.de/produkte/aptamil/pronutra-kindermilch-2/4008976022992.html",
-                    "BJ0": "https://www.rossmann.de/produkte/aptamil/profutura-anfangsmilch-pre/4008976022923.html",
-                    "BJ1": "https://www.rossmann.de/produkte/aptamil/profutura-anfangsmilch-1/4008976022909.html",
-                    "BJ2": "https://www.rossmann.de/produkte/aptamil/profutura-folgemilch-2/4008976022916.html"}
+                    "BJ0": "https://www.rossmann.de/produkte/aptamil/profutura-pre-anfangsmilch-von-geburt-an/4056631001301.html",
+                    "BJ1": "https://www.rossmann.de/produkte/aptamil/profutura-1-anfangsmilch-von-geburt-an/4056631001325.html",
+                    "BJ2": "https://www.rossmann.de/produkte/aptamil/profutura-2-folgemilch-nach-dem-6-monat/4056631001349.html"}
     rm_lst = []
     for i in name:
         milk = product()
@@ -58,8 +58,8 @@ def test():
     checkList = name_ch.keys()
     rmList = rossmannInit(checkList)
     checkRossmann(rmList)
-    for i in rmList:
-        print(i.name, i.isAvailable)
+    # for i in rmList:
+    #     print(i.name, i.isAvailable)
 
 if __name__ == "__main__":
     test()

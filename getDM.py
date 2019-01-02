@@ -16,11 +16,11 @@ name_ch = {"LG0": "蓝罐0段",
 
 
 def dm_init(name):
-    dm_url = {"LG0": "https://www.dm.de/aptamil-pronutra-anfangsmilch-pre-von-geburt-an-p4008976022350.html",
-              "LG1": "https://www.dm.de/aptamil-pronutra-anfangsmilch-1-von-geburt-an-p4008976022329.html",
-              "LG2": "https://www.dm.de/aptamil-pronutra-folgemilch-2-nach-dem-6-monat-p4008976022336.html",
+    dm_url = {"LG0": "https://www.dm.de/aptamil-pronutra-pre-von-geburt-an-p4056631001202.html",
+              "LG1": "https://www.dm.de/aptamil-pronutra-anfangsmilch-1-von-geburt-an-p4056631001226.html",
+              "LG2": "https://www.dm.de/aptamil-pronutra-folgemilch-2-nach-dem-6-monat-p4056631001240.html",
               "LG3": "https://www.dm.de/aptamil-pronutra-folgemilch-3-ab-dem-10-monat-p4008976022343.html",
-              "ZH1": "https://www.dm.de/aptamil-kindermilch-ab-1-jahr-p4008976022985.html",
+              "ZH1": "https://www.dm.de/aptamil-pronutra-kindermilch-ab-1-jahr-p4008976022985.html",
               "ZH2": "https://www.dm.de/aptamil-kindermilch-ab-2-jahren-p4008976022992.html",
               "BJ0": "https://www.dm.de/aptamil-profutura-anfangsmilch-pre-von-geburt-an-p4008976022923.html",
               "BJ1": "https://www.dm.de/aptamil-profutura-anfangsmilch-1-p4008976022909.html",
